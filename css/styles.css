@@ -1,0 +1,16 @@
+body {
+  background-color: #febcd3;
+  color: #fd70a1;
+  font-family: 'Architects Daughter', cursive;
+  font-style: normal;
+  font-weight: 400;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: space-between;
+  padding-top: 16px;
+}
