@@ -1,4 +1,4 @@
-.aboutMe {
+.education {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -8,35 +8,33 @@
   width: var(--max-width);
 }
 
-.titleAboutMe {
+.titleEducation {
   font-size: 24px;
   font-weight: bold;
 }
 
-.containerAboutMe {
+.containerEducation {
   align-items: center;
   background-color: #f2f2f2;
   border-radius: 10px;
   display: flex;
+  flex-direction: column;
   gap: 16px;
   justify-content: center;
   padding: 16px;
   width: 100%;
 }
 
-.imgAboutMe {
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
+.itemEducation {
+  width: 100%;
 }
 
-.textAboutMe {
-  font-size: 20px;
-}
-
-.descriptionAboutMe {
-  background-color: #f2f2f2;
-  border-radius: 10px;
+.itemEducation > p {
   font-size: 20px;
   padding: 16px;
+}
+
+.list {
+  list-style: disc inside none;
+  display: list-item;
 }
