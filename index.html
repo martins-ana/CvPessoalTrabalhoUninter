@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./css/cabecalho.css" />
     <link rel="stylesheet" href="./css/sobreMim.css" />
     <link rel="stylesheet" href="./css/educacao.css" />
+    <link rel="stylesheet" href="./css/portfolio.css" />
+    <link rel="stylesheet" href="./css/contato.css" />
     <title>Curriculum Vitae</title>
   </head>
   <body>
@@ -82,6 +84,48 @@
           <p class="list">Técnico Integrado, Administração e Negócios</p>
         </div>
       </div>
+    </section>
+
+    <section class="portfolio">
+      <h2 class="titlePortfolio">Portfólio (projetos em breve)</h2>
+      <div class="containerPortfolio">
+        <div class="itemPortfolio">
+          <h3>Projeto 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus vel ex
+            gravida pulvinar et vel nunc. Donec auctor, mauris ac egestas scelerisque,
+            justo velit tempus metus, non laoreet enim mi eu neque.
+          </p>
+        </div>
+        <div class="itemPortfolio">
+          <h3>Projeto 2</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus vel ex
+            gravida pulvinar et vel nunc. Donec auctor, mauris ac egestas scelerisque,
+            justo velit tempus metus, non laoreet enim mi eu neque.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2 class="titleContact">Contato</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" required />
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+        <p>
+          <strong>Observações:</strong> Os dados fornecidos serão utilizados apenas para
+          contato. Não será divulgado nenhum outro contato sem sua autorização.
+        </p>
+      </form>
     </section>
   </body>
 </html>
